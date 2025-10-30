@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dice Game</title>
+  <link rel="stylesheet" href="dice.css">
+  <script src="dice.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="dice-container">
+    <h1 class="dice-title">Dice Game</h1>
+    <div class="dice-box">
+      <p class="instructions">Roll two dice and try your luck!</p>
+      <div class="dice-images">
+        <img src="/image/dice1.png" alt="Dice 1" id="dice1">
+        <img src="/image/dice2.png" alt="Dice 2" id="dice2">
+      </div>
+      <button class="dice-btn" id="roll-btn">Roll Dice <i class="fas fa-dice"></i></button>
+      <button class="dice-btn reset-btn" id="reset-btn">Reset</button>
+      <div class="result-box">
+        <p id="result-message">Click "Roll Dice" to start!</p>
+        <p>Total: <span id="total">0</span></p>
+      </div>
+    </div>
+    <a href="/index.html" class="dice-btn">back my project</a>
+
+  </div>
+</body>
+</html>
